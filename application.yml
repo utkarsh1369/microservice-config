@@ -8,8 +8,7 @@ spring:
 
   cloud:
     config:
-      ssl:
-        skip-certificate-validation: true
+      skipSslValidation: true
 
 eureka:
   instance:
