@@ -6,7 +6,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/productdb?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3397/productdb?createDatabaseIfNotExist=true
     username: root
     password: mySQL25
     driver-class-name: com.mysql.cj.jdbc.Driver
